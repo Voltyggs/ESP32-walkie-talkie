@@ -6,6 +6,7 @@ ESP TALK is a walkie talkie based on the ESP32 and the ESPNOW protocol to provid
 
 <h3>This is the schematic of my walkie talkie. The project consists of an esp32, mic, speaker, audio amplifier + DAC, and dual power supplies <br>
 The i2s Mic first transmits its audio signals to the esp32 when the PTT button is held. After, the esp32 transmits the audio packets to the 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF address. The nearby walkie talkies pick up the signal and play it through the speaker which is powered by an MAX98351 which also doubles as a DAC for the esp32 for a better audio</h3>
+
 - Main Features:
   - Completely self dependent and off grid as it runs with ESPNOW
   - antenna for a better range
