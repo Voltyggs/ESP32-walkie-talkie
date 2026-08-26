@@ -13,5 +13,6 @@ The i2s Mic first transmits its audio signals to the esp32 when the PTT button i
   - antenna for a better range
   - uses the 12 bit DAC of the MAX98351 rather than the esp32's 8 bit DAC
 
-How to use:
+How to use:<br>
+**MAKE SURE TO PAY ATTENTION TO THE MIC ORIENTATION DURING ASSEMBLY AS IT MIGHT NEED TO BE FLIPPED**<br>
 This is a fairly simple project, after assembling it, charge the batteries through the TP4096 module (make sure to turn off the load switches), edit the transmit aaddress or keep it as default (0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF). After that, just hold down teh push to talk button and transmit!
