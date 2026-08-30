@@ -12,7 +12,11 @@ The i2s Mic first transmits its audio signals to the esp32 when the PTT button i
   - Completely self dependent and off grid as it runs with ESPNOW
   - antenna for a better range
   - uses the 12 bit DAC of the MAX98351 rather than the esp32's 8 bit DAC
-
+Here is the case:
+<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/9c4027db-038f-4909-9777-026872ad39be" />
+How to assemble: <br>
+Pretty straight forward, place the assembled pcb in the base housing, glue the lid. There are 2 slots for 5.95 x 2.54 neodymium magnets that needs ot be glued onto the external lip. It can be used as a cvover for when the mic is not in use. <br>
+<br>
 How to use:<br>
-**MAKE SURE TO PAY ATTENTION TO THE MIC ORIENTATION DURING ASSEMBLY AS IT MIGHT NEED TO BE FLIPPED**<br>
+**MAKE SURE TO PAY ATTENTION TO THE MIC ORIENTATION DURING ASSEMBLY AS IT MIGHT NEED TO BE FLIPPED AND MAKE SURE TO FLASH THE ESP32 BEFORE ASSEMBLY**<br>
 This is a fairly simple project, after assembling it, charge the batteries through the TP4096 module (make sure to turn off the load switches), edit the transmit aaddress or keep it as default (0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF). After that, just hold down teh push to talk button and transmit!
